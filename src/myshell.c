@@ -27,11 +27,10 @@ void inputLoop(void){
 	// read input into buffer
 	while(fgets(buffer, BUFFER_LEN, stdin) != NULL){
 
+		// print buffer
 		printf("%s",buffer);
 
 	}
-
-
 
 }
 
